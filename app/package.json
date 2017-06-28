@@ -1,0 +1,24 @@
+{
+  "name": "wallet",
+  "version": "0.0.1",
+  "description": "Code challenge for PayPal",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitchell Neville",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.4",
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "nodemon": "^1.11.0",
+    "run-sequence": "^1.2.2"
+  }
+}

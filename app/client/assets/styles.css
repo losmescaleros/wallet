@@ -1,0 +1,17 @@
+body {
+    margin-top: 50px;
+}
+
+ul.list-group.list-group-custom > li.list-group-item{
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+ul.list-group.list-group-custom > li.list-group-item:first-child {
+    border-top: none;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}

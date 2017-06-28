@@ -1,0 +1,11 @@
+<ul class="list-group list-group-custom">
+    <li class="list-group-item clearfix">
+        <h4 class="text-center">Wallet <span class="fa fa-times pull-right"></span></h4>
+        <a ui-sref="wallet.add" class="small pull-left">Add</a>
+        <a ui-sref="wallet.manage" class="small pull-right">Manage <span class="fa fa-chevron-right"></span></a>
+    </li>
+    <li class="list-group-item" ng-repeat="card in cards">
+        <span class="fa" ng-class="{'fa-bank': card.type === 'bank', 'fa-credit-card': card.type !== 'bank'}"></span> {{card.name}}
+        <span class="small help-block">{{card.number}}</span>
+    <li>
+</ul>

@@ -1,0 +1,16 @@
+<ul class="list-group list-group-custom">
+    <li class="list-group-item">
+        <h4 class="text-center">Manage Wallet <a ui-sref="wallet.list"><span class="fa fa-chevron-left pull-left"></span></a></h4>
+        
+    </li>
+    <li class="list-group-item clearfix" ng-repeat="card in cards">
+        <div class="col-xs-7">
+            <span class="fa" ng-class="{'fa-bank': card.type === 'bank', 'fa-credit-card': card.type !== 'bank'}"></span> {{card.name}}
+            <span class="small help-block">{{card.number}}</span>
+        </div>
+        <div class="col-xs-5">
+            <a href="#" class="small">Update</a> | <a href="#" class="small">Delete</a>
+        </div>
+        
+    <li>
+</ul>
