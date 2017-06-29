@@ -1,6 +1,14 @@
 # wallet
 
-For this assignment, the task was to create a "high-traffic digital walle", incorporating the following requirements:
+To run the application, clone the repo or download it as a zip, then go to the directory containing `gulpfile.js` and run `gulp start`. The server will listen on localhost port 3000. 
+
+```bash
+git clone https://github.com/losmescaleros/wallet.git
+cd wallet/app
+gulp start
+```
+
+For this assignment, the task was to create a "high-traffic digital wallet", incorporating the following requirements:
 
 * Back-end HTTP server built with Node.js
 * Back-end API endpoints that the app depends on
